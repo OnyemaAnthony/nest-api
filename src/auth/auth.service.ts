@@ -7,10 +7,10 @@ export class AuthService {
   constructor(private prisma: PrismaService) {}
 
   signUp(dto: AuthDto) {
-    return { msg: 'i have signup' };
+    //return { msg: 'i have signup' };
   }
 
   signIn(dto: AuthDto) {
-    return { msg: 'i have sign in' };
+    //return { msg: 'i have sign in' };
   }
 }
