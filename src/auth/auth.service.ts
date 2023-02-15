@@ -6,11 +6,7 @@ import { AuthDto } from './dto/auth.dto';
 export class AuthService {
   constructor(private prisma: PrismaService) {}
 
-  signUp(dto: AuthDto) {
-    //return { msg: 'i have signup' };
-  }
+  signUp(dto: AuthDto) {}
 
-  signIn(dto: AuthDto) {
-    //return { msg: 'i have sign in' };
-  }
+  signIn(dto: AuthDto) {}
 }
